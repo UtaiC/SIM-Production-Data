@@ -2,13 +2,36 @@
     background-color: rgb(2, 17, 48);
     font-family: Arial, Helvetica, sans-serif;
 }
+/* main body */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi3{
+    margin-top: 0;
+
+}
+
 /* Top Bar */
 #root > div:nth-child(1) > div.withScreencast > div > div > header{
-    background-color: rgb(1, 9, 25);
+    background-color: rgb(2, 17, 48);
 }
 /* header */
+#root > div:nth-child(1) > div.withScreencast > div > div > header{
+    height: 20px;
+}
 #sim-production-page > div > span{
 color: rgb(244, 244, 244);
 text-align: center;
 width: 100%;
+padding: 0;
+margin: 0;
+width: 50%;
+}
+/* Menu Bar */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4{
+    background-color: rgb(2, 11, 28);
+}
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-1cypcdb.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3{
+    background-color: rgb(2, 11, 28);
+}
+/* Image */
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi3 > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi2 > div > div > div > div:nth-child(2) > div > div > div > img{
+    margin-top: 0px;
 }

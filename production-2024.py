@@ -8,6 +8,6 @@ with open('style.css') as modi:
     st.markdown(css, unsafe_allow_html=True)
 # Banner #################################
 banner_image = Image.open('Banner-Prod.jpg')
-st.image(banner_image, width=800)
-##########################################
-st.header('SIM Production Page')
+st.image(banner_image, top_margin=0)
+## Production Menu ########################################
+Process = st.sidebar.selectbox('Process',['Die_casting','Finishing','Finishing_SUB','Sand_Blasting','Machine','QC'] )
