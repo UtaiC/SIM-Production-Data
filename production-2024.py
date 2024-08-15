@@ -4,6 +4,7 @@ from PIL import Image
 from datetime import datetime, timedelta
 import datetime
 import calendar
+
 ##################################
 # Css Style #####################
 with open('style.css') as modi:
@@ -81,9 +82,10 @@ Process = st.sidebar.selectbox('Process',['Die_casting','Finishing','Finishing_S
 # Cost_Type = st.sidebar.selectbox('Cost Type',['Variable Cost','Fixed Cost'] )
 #######################
 ########################## Production 2024 ############################
+file = "https://docs.google.com/spreadsheets/d/1pbzO4YI-TkW3AO6yssJgHO9F3FwWb9Rs/export?format=xlsx"
 @st.cache_data 
 def load_data_File_A(start_week, end_week):
-    file = "https://docs.google.com/spreadsheets/u/1/d/1pbzO4YI-TkW3AO6yssJgHO9F3FwWb9Rs.xlsx"
+    # file = "Production-"+Yinput+".xlsx"
     all_sheets = pd.read_excel(file, header=7, sheet_name=None)  # Load all sheets
     # Convert sheet names to strings
     all_sheets = {str(sheet_name): df for sheet_name, df in all_sheets.items()}
